@@ -1,3 +1,0 @@
-export default {
-  BASE_URL: process.env.NODE_ENV === 'production' ? 'https://devconnect-server.herokuapp.com/api' : 'http://localhost:3000'
-}
