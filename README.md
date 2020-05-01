@@ -1,6 +1,8 @@
 # DevConnector - Front End
 This is a social media platform for developers to network together.
 
+Visit the live site here: https://dev-connect-client.now.sh/
+
 ---
 
 ## Technologies Used
