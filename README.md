@@ -1,4 +1,4 @@
-DevConnector - Front End
+##### DevConnector - Front End
 This is a social media platform for developers to network together.
 
 Technologies Used
