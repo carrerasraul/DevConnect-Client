@@ -3,8 +3,13 @@ This is a social media platform for developers to network together.
 
 ---
 
-Technologies Used
+## Technologies Used
 React.js
 Node.js
 Postgresql
 MongoDB
+
+---
+Screenshots
+
+![Landing Page](screenshots/Dashboard.png)
