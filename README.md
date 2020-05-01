@@ -10,6 +10,20 @@ Postgresql
 MongoDB
 
 ---
-Screenshots
+##Screenshots
 
-![Landing Page](screenshots/Dashboard.png)
+### Landing
+![Landing Page](screenshots/Landing.png)
+
+### Developers
+![Developers Page](screenshots/Developers.png)
+
+### Dashboard Page
+![Dashboard Page](screenshots/Dashboard.png)
+
+### Posts Page
+![Posts Page](screenshots/Posts.png)
+
+### Profile Page
+![Profile Page](screenshots/Profile.png)
+
