@@ -1,7 +1,9 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import { AddExperience } from './AddExperience';
+import AddExperience from './AddExperience';
 
 const Wrapper = (props) => {
   return (
@@ -11,11 +13,11 @@ const Wrapper = (props) => {
   );
 };
 
-describe('<AddExperience />', () => {
+describe.only('<AddExperience />', () => {
   it('Renders without crashing', () => {
     shallow(
       <Wrapper>
-        <AddExpericence />
+        <AddExperience />
       </Wrapper>
     );
   });

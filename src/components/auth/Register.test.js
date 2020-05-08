@@ -1,10 +1,24 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import { Register } from './Register';
+import Register from './Register';
 
-describe('<Register />', () => {
+const Wrapper = (props) => {
+  return (
+    <Provider>
+      <Router>{props.children}</Router>
+    </Provider>
+  );
+};
+
+describe.only('<Register />', () => {
   it('Renders without crashing', () => {
-    shallow(<Register />);
+    shallow(
+      <Wrapper>
+        <Register />
+      </Wrapper>
+    );
   });
 });

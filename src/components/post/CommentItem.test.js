@@ -1,10 +1,24 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import { CommentItem } from './CommentItem';
+import CommentItem from './CommentItem';
 
-describe('<CommentItem />', () => {
+const Wrapper = (props) => {
+  return (
+    <Provider>
+      <Router>{props.children}</Router>
+    </Provider>
+  );
+};
+
+describe.only('<CommentItem />', () => {
   it('Renders without crashing', () => {
-    shallow(<CommentItem />);
+    shallow(
+      <Wrapper>
+        <CommentItem />
+      </Wrapper>
+    );
   });
 });

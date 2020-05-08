@@ -1,10 +1,24 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import { DashboardActions } from './DashboardActions';
+import DashboardActions from './DashboardActions';
 
-describe('<DashboardActions />', () => {
+const Wrapper = (props) => {
+  return (
+    <Provider>
+      <Router>{props.children}</Router>
+    </Provider>
+  );
+};
+
+describe.only('<DashboardActions />', () => {
   it('Renders without crashing', () => {
-    shallow(<DashboardActions />);
+    shallow(
+      <Wrapper>
+        <DashboardActions />
+      </Wrapper>
+    );
   });
 });
