@@ -3,6 +3,10 @@ This is a social media platform for developers to network together.
 
 Visit the live site here: https://dev-connect-client.now.sh/
 
+DEMO CREDENTIALS:
+email address - test@test.com
+password - password
+
 ---
 
 ## Technologies Used
