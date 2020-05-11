@@ -18,7 +18,7 @@ const Landing = ({ isAuthenticated }) => {
             other developers
           </p>
           <h3>DEMO CREDENTIALS:</h3>
-          <h3>bogart@gmail.com PASSWORD: password</h3>
+          <h3>EMAIL: bogart@gmail.com PASSWORD: password</h3>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
               Sign Up
