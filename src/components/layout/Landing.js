@@ -17,7 +17,8 @@ const Landing = ({ isAuthenticated }) => {
             Create a developer profile/portfolio, share posts and get help from
             other developers
           </p>
-          <h2>DEMO CREDENTIALS: EMAIL: test@test.com | PASSWORD: password</h2>
+          <h3>DEMO CREDENTIALS:</h3>
+          <h3>test@test.com PASSWORD: password</h3>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
               Sign Up
